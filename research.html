@@ -1,18 +1,54 @@
-<section>
-    <h2>Research</h2>
-    <h3>Working Papers</h3>
-    <ul>
-        <li>
-            <h4>Long-Term Impacts of Natural Disasters on Migration and Skill Distribution</h4>
-            <a href="javascript:void(0);" onclick="toggleAbstract()">Show Abstract</a>
-            <div id="abstract" style="display:none;">
-                <p>This paper investigates the long-term impacts of natural disasters on migration patterns and the distribution of skills across affected regions...</p>
-            </div>
-            <ul>
-                <li>Labor Economics</li>
-                <li>Urban Economics</li>
-                <li>Economic Geography</li>
-            </ul>
-        </li>
-    </ul>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Haeseong Park</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleAbstract() {
+            var abstract = document.getElementById("abstract");
+            var link = document.querySelector("a[onclick='toggleAbstract()']");
+            if (abstract.style.display === "none") {
+                abstract.style.display = "block";
+                link.textContent = "Hide Abstract";
+            } else {
+                abstract.style.display = "none";
+                link.textContent = "Show Abstract";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Research</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="research.html">Research</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Research</h2>
+        <h3>Working Papers</h3>
+        <ul>
+            <li>
+                <h4>Long-Term Impacts of Natural Disasters on Migration and Skill Distribution</h4>
+                <a href="javascript:void(0);" onclick="toggleAbstract()">Show Abstract</a>
+                <div id="abstract" style="display:none;">
+                    <p>This paper investigates the long-term impacts of natural disasters on migration patterns and the distribution of skills across affected regions...</p>
+                </div>
+                <ul>
+                    <li>Labor Economics</li>
+                    <li>Urban Economics</li>
+                    <li>Economic Geography</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Haeseong Park. All rights reserved.</p>
+    </footer>
+</body>
+</html>
