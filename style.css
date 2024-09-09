@@ -2,8 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7; /* A light, neutral background color */
+    background-image: url('flatiron_24Fall.jpeg'); /* Path to your JPEG file */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    background-position: center; /* Centers the background image */
+    color: #2c3e50; /* Ensure text remains legible against the background */
 }
+
 
 header {
     background-color: #2c3e50; /* Classic navy blue for the header */
