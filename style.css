@@ -54,6 +54,16 @@ h2, h3 {
     color: #2c3e50; /* Matching the header's classic navy blue */
 }
 
+h3 {
+    margin-bottom: 0.5rem; /* Adjust this to reduce space below the "Research Interests" heading */
+}
+
+h4 {
+    margin-top: 0; /* Remove the top margin to bring it closer to the "Research Interests" heading */
+    margin-bottom: 0.5rem; /* Adjust as needed for spacing below the subheading */
+}
+
+
 /* Adding a bit more space between paragraphs */
 p {
     margin-bottom: 1.5rem;
