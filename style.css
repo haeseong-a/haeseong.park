@@ -4,21 +4,62 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
 header {
     background-color: #333;
     color: white;
     padding: 1rem;
     text-align: center;
 }
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 section {
     padding: 2rem;
     margin: 1rem auto;
     max-width: 800px;
     background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
+
+/* Adjusting vertical spacing between sections */
+section {
+    margin-bottom: 2rem;
+}
+
+h2, h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    color: #333;
+}
+
+/* Adding a bit more space between paragraphs */
+p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #333;
     color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
