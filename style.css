@@ -72,3 +72,17 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+a {
+    color: #2c3e50;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
