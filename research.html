@@ -28,6 +28,31 @@
             border-top: 1px solid #ccc; /* Adjust color and thickness as needed */
             margin: 1rem 0; /* Adjust spacing around the line */
         }
+
+        /* Styling for the header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f8f8; /* Background color for the header */
+            padding: 1rem; /* Padding around the header */
+        }
+
+        .contact-info {
+            text-align: right;
+        }
+
+        .contact-info p {
+            margin: 0;
+            color: #333; /* Adjust text color as needed */
+        }
+
+        /* Nav styling */
+        nav a {
+            margin: 0 0.5rem;
+            text-decoration: none;
+            color: #007acc; /* Adjust link color as needed */
+        }
     </style>
     <script>
         function toggleAbstract() {
@@ -46,18 +71,17 @@
 <body>
     <header>
         <h1>Research</h1>
-        <div style="display: flex; justify-content: space-between; align-items: flex-end;">
-            <div style="text-align: right;">
-                <p style="margin: 0; color: white;">Email: haeseong.park@colorado.edu</p>
-                <p style="margin: 0; color: white;">Phone: (720) 736-4642</p>
-            </div>
+        <div class="contact-info">
+            <p>Email: haeseong.park@colorado.edu</p>
+            <p>Phone: (720) 736-4642</p>
         </div>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="research.html">Research</a> |
-            <a href="cv.html">CV</a>
-        </nav>
     </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="research.html">Research</a> |
+        <a href="cv.html">CV</a>
+    </nav>
 
     <section>
         <h2>Research</h2>
